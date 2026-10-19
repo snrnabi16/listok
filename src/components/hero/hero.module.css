@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 72px 48px 48px;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #1c2b24;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.hero p {
+  margin: 0;
+  color: #5e6b64;
+  font-size: 18px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #2e6b4f;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

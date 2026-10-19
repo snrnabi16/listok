@@ -1,0 +1,31 @@
+.section {
+  padding: 8px 48px 56px;
+}
+
+.section h2 {
+  margin: 0 0 20px;
+  font-size: 28px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  color: #5e6b64;
+  font-size: 15px;
+}

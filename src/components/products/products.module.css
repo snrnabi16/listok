@@ -1,0 +1,15 @@
+.section {
+  padding: 8px 48px 72px;
+}
+
+.section h2 {
+  margin: 0 0 20px;
+  color: #1c2b24;
+  font-size: 28px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
